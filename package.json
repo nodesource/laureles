@@ -1,0 +1,30 @@
+{
+    "name" : "laureles",
+    "version" : "0.0.0",
+    "description" : "Node.js addon wrapper around poblado that extracts partial JSON via a filter on a background thread.",
+    "main" : "laureles.js",
+    "scripts" : {
+      "test" : "tape test/*.js"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "git://github.com/nodesource/laureles.git"
+    },
+    "homepage" : "https://github.com/nodesource/laureles",
+    "dependencies" : {
+    },
+    "devDependencies" : {
+      "tape": "~4.8.0"
+    },
+    "keywords": [] ,
+    "author" : {
+      "name" : "Thorsten Lorenz",
+      "email" : "thlorenz@gmx.de",
+      "url" : "https://nodesource.com"
+    },
+    "license" : {
+      "type": "MIT",
+      "url": "https://github.com/nodesource/laureles/blob/master/LICENSE"
+    },
+    "engine" : { "node" : ">=6" }
+}
